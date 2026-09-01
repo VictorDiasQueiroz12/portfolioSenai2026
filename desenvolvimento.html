@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Queiroz | Modelagem de Sistemas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <nav class="navbar">
+            <div class="logo">VICTORDIAS<span>QUEIROZ</span></div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-item">Início</a>
+                <a href="index.html#sobre" class="nav-item">Sobre Mim</a>
+                <a href="index.html#links" class="nav-item">Links &amp; Arquivos</a>
+                <div class="dropdown">
+                    <a href="#" class="nav-item active">Matérias ▼</a>
+                    <div class="dropdown-content">
+                        <a href="natureza.html">Natureza</a>
+                        <a href="humanas.html">Humanas</a>
+                        <a href="matematica.html">Matemática</a>
+                        <a href="linguagens.html">Linguagens</a>
+                        <a href="modelagem.html">Modelagem de Sistemas</a>
+                        <a href="iot.html">IoT</a>
+                        <a href="banco.html">Banco de Dados</a>
+                        <a href="desenvolvimento.html">Desenvolvimento de Sistemas</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <header class="subject-header">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200" class="subject-banner">
+            <h1 class="subject-title" style="font-size: 60px;">DESENVOLVIMENTO DE SISTEMAS</h1>
+        </header>
+
+        <div class="atividades-sep">
+            <h2>ATIVIDADE TÉCNICA</h2>
+        </div>
+
+        <div class="trimestre-tabs">
+            <button class="trimestre-btn active" data-trimestre="1">1º Trimestre</button>
+            <button class="trimestre-btn" data-trimestre="2">2º Trimestre</button>
+            <button class="trimestre-btn" data-trimestre="3">3º Trimestre</button>
+        </div>
+
+        <div class="trimestre-content active" data-trimestre="1">
+<div class="empty-trimestre">
+                <div class="empty-icon">＋</div>
+                <p>As atividades do 1º trimestre serão adicionadas aqui em breve.</p>
+            </div>
+
+        </div>
+
+        <div class="trimestre-content" data-trimestre="2">
+<!-- Atividade: Gateway de Pagamento -->
+        <section class="activity-card">
+            <div class="activity-visual">
+               <div style="background: #111; padding: 25px; border-radius: 10px; border: 1px solid var(--accent-color); text-align: center; transition: 0.3s;" onmouseover="this.style.background='#1a1a1a'" onmouseout="this.style.background='#111'">
+                   <a href="https://github.com/VictorDiasQueiroz12/RinhaSenai2026FullStack.git" target="_blank" style="color: var(--accent-color); font-size: 14px; font-weight: 800; text-transform: uppercase; text-decoration: none; display: block;">Ver Repositório no GitHub ↗</a>
+               </div>
+            </div>
+            <div class="activity-info">
+                <div class="label-tiny">DESENVOLVIMENTO DE SISTEMAS / GATEWAY DE PAGAMENTO</div>
+                <h3>Gateway de Pagamento</h3>
+                
+                <div class="info-item">
+                    <span class="label">Habilidades</span>
+                    <p class="text">H1, H4 e H6</p>
+                </div>
+                <div class="info-item">
+                    <span class="label">Objetivo</span>
+                    <p class="text">Desenvolver uma aplicação que simule um gateway de pagamento, aplicando conhecimentos de programação, APIs, frameworks, banco de dados e princípios de segurança, usabilidade e integridade das informações.</p>
+                </div>
+                <div class="info-item">
+                    <span class="label">Descrição</span>
+                    <p class="text">A atividade consistiu no desenvolvimento, em equipe, de um gateway de pagamento para o Ensino Médio Técnico. O projeto simulou um sistema real de processamento de pagamentos, envolvendo cobrança de cartões, aplicação de taxas de acordo com a bandeira, cálculo de juros compostos conforme o número de parcelas e controle de um limite diário de R$ 5.000 por cartão. Como solução, foi desenvolvido um sistema com backend em Node.js, frontend em React e banco de dados SQLite, organizado em um repositório no GitHub com documentação da arquitetura.</p>
+                </div>
+                <div class="info-item">
+                    <span class="label">Opinião Pessoal</span>
+                    <p class="text">"A atividade foi muito importante para colocar em prática conhecimentos de desenvolvimento de sistemas em um projeto próximo de uma situação real. Trabalhar com backend, frontend e banco de dados também ajudou a compreender melhor como diferentes tecnologias podem ser integradas para construir uma aplicação completa."</p>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <div class="trimestre-content" data-trimestre="3">
+            <div class="empty-trimestre">
+                <div class="empty-icon">＋</div>
+                <p>As atividades do 3º trimestre serão adicionadas aqui em breve.</p>
+            </div>
+        </div>
+
+        <div class="footer-text">
+           © Todos direitos reservados a Victor Dias Queiroz.
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
