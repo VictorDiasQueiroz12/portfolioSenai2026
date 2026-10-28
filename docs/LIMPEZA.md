@@ -1,0 +1,82 @@
+# Arquivos removidos na revisão
+
+Busca antes da exclusão: aplicação em src, scripts de build/teste e referências documentais. As únicas dependências operacionais do arquivo histórico eram os testes: foram migradas para tests/fixtures/preservation.json antes da exclusão. As rotas .html são geradas por Astro e os caminhos fotos/ são atendidos por public/fotos/. Nenhuma imagem de public/fotos foi removida. Todos os hashes das cópias foram comparados antes da exclusão.
+
+- `banco.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `public/original/banco.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `cv.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `public/original/cv.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `desenvolvimento.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `public/original/desenvolvimento.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `humanas.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `public/original/humanas.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `index.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `public/original/index.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `iot.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `public/original/iot.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `linguagens.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `public/original/linguagens.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `matematica.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `public/original/matematica.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `modelagem.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `public/original/modelagem.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `natureza.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `public/original/natureza.html` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `script.js` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `public/original/script.js` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `style.css` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `public/original/style.css` — interface antiga substituída pelas rotas Astro; atividades preservadas no catálogo e fixture de integridade.
+- `fotos/artist_movie_ingles.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/artist_movie_ingles.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/baratagh.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/baratagh.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/brasil.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/brasil.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/cartilha_eletricidade.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/cartilha_eletricidade.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/dependentes_quimicos.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/dependentes_quimicos.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/estatistica_capa.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/estatistica_capa.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/etanol_biocombustiveis.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/etanol_biocombustiveis.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/fisica.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/fisica.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/guerra_pacifico.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/guerra_pacifico.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/iot_led_sinalizacao.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/iot_led_sinalizacao.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/iot_pushbutton.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/iot_pushbutton.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/iot_pushbutton_foto.jpg` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/iot_pushbutton_foto.jpg` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/iot_semaforo.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/iot_semaforo.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/jornal.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/jornal.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/laudo_redacao_enem.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/laudo_redacao_enem.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/meme.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/meme.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/mural_biologia.jpeg` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/mural_biologia.jpeg` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/o_poco_totalitarismo.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/o_poco_totalitarismo.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/quebrandobanca.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/quebrandobanca.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/quimica.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/quimica.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/senai_diario.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/senai_diario.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/tempo.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/tempo.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/victor.jpg` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/victor.jpg` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/video_eletroquimica.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/video_eletroquimica.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/whitejack.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/whitejack.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `fotos/wordwall.png` — cópia idêntica; original de uso mantido em public/fotos/.
+- `public/original/fotos/wordwall.png` — cópia idêntica; original de uso mantido em public/fotos/.
+
+Total: 76 arquivos redundantes. Os arquivos já versionados continuam disponíveis no histórico Git.
