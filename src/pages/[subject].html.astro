@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import projects from '../data/projects.json';
+export function getStaticPaths() {
+  return [...new Set(projects.map((p) => p.source))].map((source) => ({
+    params: { subject: source.replace('.html', '') },
+    props: { source },
+  }));
+}
+const list = projects.filter((p) => p.source === Astro.props.source);
+---
+
+<Layout title={list[0].category + ' — Victor Queiroz'}>
+  <main id="main" class="container detail-page">
+    <header class="detail-header">
+      <p class="eyebrow">ACERVO / SESI SENAI 2026</p>
+      <h1>{list[0].category}</h1>
+      <p>
+        Todos os registros desta disciplina, com seus materiais e relatos
+        completos.
+      </p>
+    </header>
+    <div class="projects-grid">
+      {list.map((p, i) => (
+        <ProjectCard project={p} index={i} />
+      ))}
+    </div>
+  </main>
+</Layout>

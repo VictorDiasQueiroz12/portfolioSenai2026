@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { url } from '../lib/paths';
+import { profile } from '../data/profile';
+---
+
+<Layout title="Currículo — Victor Dias Queiroz">
+  <main id="main" class="container cv-page">
+    <p class="eyebrow">CURRICULUM VITAE</p>
+    <h1>{profile.name}</h1>
+    <p class="lead">Desenvolvedor de sistemas em formação</p>
+    <p>
+      {profile.location}
+      <br />
+      {profile.phone}
+      <br />
+      {profile.email}
+      <br />
+      <a href={profile.portfolio} target="_blank" rel="noopener noreferrer">
+        Portfólio ↗
+      </a>
+    </p>
+    <section>
+      <h2>Resumo profissional</h2>
+      <p>{profile.summary}</p>
+    </section>
+    <section>
+      <h2>Formação acadêmica</h2>
+      {profile.education.map((item) => (
+        <div>
+          <h3>{item.title}</h3>
+          <p>{item.institution}</p>
+          <p>{item.date}</p>
+        </div>
+      ))}
+    </section>
+    <section>
+      <h2>Projetos acadêmicos</h2>
+      {profile.experiences.map((item) => (
+        <div>
+          <h3>{item.title}</h3>
+          <p>{item.text}</p>
+        </div>
+      ))}
+    </section>
+    <section>
+      <h2>Competências técnicas</h2>
+      <ul>
+        {profile.technical.map((item) => (
+          <li>{item}</li>
+        ))}
+      </ul>
+    </section>
+    <section>
+      <h2>Competências comportamentais</h2>
+      <ul>
+        {profile.behavioral.map((item) => (
+          <li>{item}</li>
+        ))}
+      </ul>
+    </section>
+    <a class="button primary" href={url(profile.resume)} download>
+      Baixar currículo
+    </a>
+  </main>
+</Layout>

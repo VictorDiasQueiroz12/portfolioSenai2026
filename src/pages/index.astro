@@ -1,0 +1,276 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import projects from '../data/projects.json';
+import { url, optimized } from '../lib/paths';
+import { profile, skills } from '../data/profile';
+const ordered = [...projects].sort(
+  (a, b) =>
+    Number(b.id === 'desenvolvimento-1') -
+      Number(a.id === 'desenvolvimento-1') ||
+    Number(b.id === 'iot-3') - Number(a.id === 'iot-3'),
+);
+const categories = [...new Set(projects.map((p) => p.category))];
+---
+
+<Layout>
+  <main id="main">
+    <section id="inicio" class="hero container">
+      <div class="hero-top">
+        <span class="availability">
+          <i></i> Aberto a estágio e jovem aprendiz
+        </span>
+        <span class="mono location">FLORIANÓPOLIS, SC · BRASIL</span>
+      </div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">OLÁ, EU SOU VICTOR DIAS QUEIROZ</p>
+          <h1>
+            Curiosidade que
+            <br />
+            vira <em>código.</em>
+            <span class="hero-dot">*</span>
+          </h1>
+          <p class="hero-role">Desenvolvedor de sistemas em formação.</p>
+          <p class="hero-description">
+            Transformo o que aprendo em experiências digitais. Do primeiro
+            circuito à aplicação completa, cada projeto é um novo passo.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projetos">
+              Explorar projetos <span>↗</span>
+            </a>
+          </div>
+          <a class="text-link cv-link" href={url(profile.resume)} download>
+            ↓ Baixar currículo <span class="muted">/ PDF</span>
+          </a>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <img
+              src={url('assets/img/foto-inicio.webp')}
+              alt="Victor Dias Queiroz, de suéter escuro e camisa branca, em retrato no espelho"
+              width="457"
+              height="457"
+              fetchpriority="high"
+            />
+            <span class="portrait-label">
+              EM CONSTANTE
+              <br />
+              CONSTRUÇÃO.
+            </span>
+            <span class="portrait-plus" aria-hidden="true">
+              +
+            </span>
+          </div>
+          <div class="code-note">
+            <span class="mono">meu próximo passo</span>
+            <strong>
+              Aprender. Construir.
+              <br />
+              Fazer a diferença.
+            </strong>
+            <span class="note-arrow" aria-hidden="true">
+              ↗
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bottom">
+        <p>
+          <span class="small-dot"></span> Desenvolvimento web · Tecnologia ·
+          Ideias
+        </p>
+        <a href="#sobre">Conheça minha trajetória ↓</a>
+      </div>
+    </section>
+    <section id="sobre" class="section container reveal">
+      <div class="section-heading">
+        <p class="eyebrow">01 / SOBRE MIM</p>
+        <h2>
+          Antes do código,
+          <br />a vontade de <em>entender.</em>
+        </h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image">
+          <img
+            src={optimized('fotos/victor.jpg')}
+            alt="Victor Dias Queiroz com camiseta preta, em foto no espelho durante sua formação no SENAI"
+            width="480"
+            height="520"
+            loading="lazy"
+          />
+          <span>Victor, por trás dos projetos.</span>
+        </div>
+        <div class="about-copy">
+          <p class="lead">
+            Sou Victor Dias Queiroz, estudante do Ensino Médio Técnico em
+            Desenvolvimento de Sistemas no SESI SENAI.
+          </p>
+          <p>
+            Minha formação conecta programação, lógica e tecnologia à prática.
+            Gosto de entender como as coisas funcionam e transformar esse
+            aprendizado em soluções com propósito.
+          </p>
+          <p>
+            Ao longo dessa jornada, aprendi a lidar melhor com desafios,
+            colaborar em grupo de forma mais empática e buscar soluções
+            criativas para problemas reais. Desenvolver também é aprender a
+            olhar o mundo com mais senso crítico.
+          </p>
+          <p>
+            Busco uma oportunidade como estagiário ou jovem aprendiz para
+            contribuir, aprender com uma equipe e crescer profissionalmente.
+          </p>
+          <div class="about-facts">
+            <div>
+              <strong>Conclusão: dezembro de 2026</strong>
+              <span>Formação técnica · SESI SENAI</span>
+            </div>
+            <div>
+              <strong>Florianópolis, SC</strong>
+              <span>Ingleses · Brasil</span>
+            </div>
+          </div>
+          <a
+            class="text-link"
+            href="https://sites.google.com/estudante.sesisenai.org.br/victor-d-portfolio-2025/início"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visitar meu portfólio de 2025 ↗
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="habilidades" class="skills-section section">
+      <div class="container">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">02 / REPERTÓRIO</p>
+            <h2>
+              Ferramentas para
+              <br />
+              <em>tirar ideias do papel.</em>
+            </h2>
+          </div>
+          <p>
+            Conhecimentos construídos em projetos
+            <br />e em constante desenvolvimento.
+          </p>
+        </div>
+        <div class="skills-grid">
+          {skills.map((s) => (
+            <article class="skill-group reveal">
+              <span class="skill-number">{s.n} /</span>
+              <h3>{s.title}</h3>
+              <p>{s.text}</p>
+              <ul>
+                {s.items.map((i) => (
+                  <li>
+                    <span aria-hidden="true">↗</span> {i}
+                  </li>
+                ))}
+              </ul>
+              <small>EM DESENVOLVIMENTO CONTÍNUO</small>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+    <section id="projetos" class="section container">
+      <div class="section-heading split">
+        <div>
+          <p class="eyebrow">03 / PROJETOS & ATIVIDADES</p>
+          <h2>
+            Aprendizado,
+            <br />
+            <em>na prática.</em>
+          </h2>
+        </div>
+        <p>
+          Uma coleção de experimentos, desafios
+          <br />e soluções da minha jornada no SENAI.
+        </p>
+      </div>
+      <div class="project-toolbar">
+        <div class="filters" role="group" aria-label="Filtrar por categoria">
+          <button data-filter="all" aria-pressed="true">
+            Todos <span>{projects.length}</span>
+          </button>
+          {categories.map((c) => (
+            <button data-filter={c} aria-pressed="false">
+              {c}
+            </button>
+          ))}
+        </div>
+        <div class="search-row">
+          <label class="search-field">
+            <span>Buscar projetos</span>
+            <input
+              id="project-search"
+              type="search"
+              placeholder="Título, tecnologia ou disciplina…"
+            />
+          </label>
+          <label>
+            Período
+            <select id="trimester">
+              <option value="all">Todos os trimestres</option>
+              <option value="1">1º trimestre</option>
+              <option value="2">2º trimestre</option>
+              <option value="3">3º trimestre</option>
+            </select>
+          </label>
+          <p id="results-count" role="status" aria-live="polite">
+            {projects.length} registros
+          </p>
+        </div>
+      </div>
+      <div class="projects-grid">
+        {ordered.map((p, i) => (
+          <ProjectCard project={p} index={i} />
+        ))}
+      </div>
+      <p id="no-results" class="empty-state" hidden>
+        Nenhum projeto encontrado. Experimente outro termo ou trimestre.
+      </p>
+      <noscript>
+        <p>
+          Todos os projetos estão disponíveis abaixo. Ative JavaScript para usar
+          os filtros.
+        </p>
+      </noscript>
+    </section>
+    <section id="formacao" class="section education-section">
+      <div class="container education-grid">
+        <div class="section-heading">
+          <p class="eyebrow">04 / FORMAÇÃO</p>
+          <h2>
+            Uma base sólida.
+            <br />
+            <em>Um caminho aberto.</em>
+          </h2>
+          <p>
+            Formação e experiências que dão
+            <br />
+            direção aos meus próximos passos.
+          </p>
+        </div>
+        <div class="timeline">
+          {profile.education.map((item) => (
+            <article>
+              <span class="eyebrow">{item.date}</span>
+              <h3>{item.title}</h3>
+              <p>{item.institution}</p>
+            </article>
+          ))}
+          <a class="text-link" href={url('cv.html')}>
+            Ver currículo completo ↗
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>

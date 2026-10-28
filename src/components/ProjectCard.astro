@@ -1,0 +1,90 @@
+---
+import { url, optimized } from '../lib/paths';
+import projects from '../data/projects.json';
+interface Props {
+  project: (typeof projects)[number];
+  index?: number;
+}
+const { project: p, index = 0 } = Astro.props;
+const demo = p.links.find((l) => !l.url.includes('github.com'));
+const code = p.links.find((l) => l.url.includes('github.com'));
+---
+
+<article
+  class="project-card"
+  data-category={p.category}
+  data-trimester={p.trimester}
+  data-search={(
+    p.title +
+    ' ' +
+    p.category +
+    ' ' +
+    p.tags.join(' ')
+  ).toLocaleLowerCase('pt-BR')}
+>
+  <a
+    class:list={['project-cover', { 'graphic-cover': !p.images.length }]}
+    href={url('projetos/' + p.id + '/')}
+    tabindex="-1"
+    aria-hidden="true"
+  >
+    {p.images.length ? (
+      <img
+        src={optimized(p.images[0])}
+        alt=""
+        width="960"
+        height="640"
+        loading="lazy"
+        decoding="async"
+      />
+    ) : (
+      <div class="cover-art">
+        <span>
+          {p.title.includes('Gateway')
+            ? '{ payment }'
+            : p.title.includes('Grand')
+              ? 'IDEIA → IMPACTO'
+              : 'VOZ & EXPRESSÃO'}
+        </span>
+        <strong>
+          {p.title.includes('Gateway')
+            ? 'Construindo conexões.'
+            : p.title.includes('Grand')
+              ? 'Pensar. Criar. Resolver.'
+              : 'Ideias que ganham voz.'}
+        </strong>
+        <span>VICTOR QUEIROZ / {p.category.toUpperCase()}</span>
+      </div>
+    )}
+    <span class="cover-index">{String(index + 1).padStart(2, '0')} ↗</span>
+  </a>
+  <div class="project-body">
+    <p class="eyebrow">
+      {p.category} <span> / {p.trimester}º trimestre</span>
+    </p>
+    <h3>
+      <a href={url('projetos/' + p.id + '/')}>{p.title}</a>
+    </h3>
+    <p class="card-description">{p.description}</p>
+    <ul class="tags" aria-label="Tecnologias e métodos">
+      {p.tags.map((t) => (
+        <li>{t}</li>
+      ))}
+    </ul>
+    <div class="card-actions">
+      <a href={url('projetos/' + p.id + '/')}>
+        Ver projeto <span aria-hidden="true">↗</span>
+      </a>
+      {demo && (
+        <a href={demo.url} target="_blank" rel="noopener noreferrer">
+          Demo / material ↗
+        </a>
+      )}
+      {code && (
+        <a href={code.url} target="_blank" rel="noopener noreferrer">
+          Código ↗
+        </a>
+      )}
+    </div>
+  </div>
+</article>
