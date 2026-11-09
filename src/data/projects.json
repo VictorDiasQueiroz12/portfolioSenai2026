@@ -73,6 +73,95 @@
     "subtitle": "DESENVOLVIMENTO DE SISTEMAS / GATEWAY DE PAGAMENTO"
   },
   {
+    "id": "teste-sistemas-1",
+    "title": "Innovation Camp – Hackathon Tech SC",
+    "category": "Teste de Sistemas",
+    "trimester": 3,
+    "source": "teste-sistemas.html",
+    "tags": [
+      "Pesquisa e Design Thinking",
+      "Brainstorming e trabalho em equipe",
+      "Desenvolvimento de proposta inovadora",
+      "Prototipação e apresentação de pitch",
+      "Canva"
+    ],
+    "description": "Desenvolver habilidades de empreendedorismo e inovação por meio da criação de soluções para desafios reais, aplicando metodologias como Design Thinking, pesquisa de mercado e prototipação para conectar os jovens à tecnologia e às empresas de Santa Catarina.",
+    "fields": [
+      {
+        "label": "Habilidades",
+        "text": "Criatividade, pensamento crítico, resolução de problemas, empreendedorismo, comunicação, colaboração e inovação tecnológica."
+      },
+      {
+        "label": "Objetivo",
+        "text": "Desenvolver habilidades de empreendedorismo e inovação por meio da criação de soluções para desafios reais, aplicando metodologias como Design Thinking, pesquisa de mercado e prototipação para conectar os jovens à tecnologia e às empresas de Santa Catarina."
+      },
+      {
+        "label": "Descrição",
+        "text": "A atividade consistiu na participação no Hackathon Tech SC, promovido em parceria com a Junior Achievement, SESI SENAI e NSC TV. Em equipe, foi desenvolvido um projeto para aproximar os jovens das empresas e marcas patrocinadoras de conteúdos sobre tecnologia e inovação. Foram utilizadas ferramentas como Matriz CSD, pesquisa exploratória, mapa da empatia e brainstorming, além da elaboração de uma proposta de valor, prototipação e apresentação de um pitch."
+      },
+      {
+        "label": "Opinião Pessoal",
+        "text": "\"A atividade foi uma experiência enriquecedora, pois permitiu aplicar conhecimentos de tecnologia, criatividade e empreendedorismo na resolução de um desafio real. Além de desenvolver o trabalho em equipe e a comunicação, foi uma oportunidade de entender melhor como transformar ideias em propostas inovadoras e apresentá-las de maneira profissional.\""
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "url": "https://canva.link/m24d8moh0knp0t3",
+        "label": "Abrir material do Innovation Camp no Canva ↗"
+      },
+      {
+        "url": "https://canva.link/fpuozztnsqwv5zk",
+        "label": "Abrir segundo material no Canva ↗"
+      }
+    ],
+    "videos": [],
+    "code": [],
+    "subtitle": "DESENVOLVIMENTO DE SISTEMAS / EMPREENDEDORISMO E INOVAÇÃO"
+  },
+  {
+    "id": "teste-sistemas-2",
+    "title": "Testes de Desempenho de Software",
+    "category": "Teste de Sistemas",
+    "trimester": 3,
+    "source": "teste-sistemas.html",
+    "tags": [
+      "Pesquisa em grupo",
+      "Apresentação de slides",
+      "Canva",
+      "Demonstração prática de teste"
+    ],
+    "description": "Compreender a importância dos testes de desempenho no desenvolvimento de software, analisando como avaliar a velocidade, a estabilidade e a capacidade de resposta de sistemas submetidos a diferentes cargas de usuários.",
+    "fields": [
+      {
+        "label": "Habilidades",
+        "text": "Pensamento crítico, análise de desempenho, resolução de problemas, utilização de ferramentas tecnológicas, comunicação e trabalho em equipe."
+      },
+      {
+        "label": "Objetivo",
+        "text": "Compreender a importância dos testes de desempenho no desenvolvimento de software, analisando como avaliar a velocidade, a estabilidade e a capacidade de resposta de sistemas submetidos a diferentes cargas de usuários."
+      },
+      {
+        "label": "Descrição",
+        "text": "A atividade consistiu em uma pesquisa em grupo sobre testes de desempenho de software, abordando seus conceitos, aplicações, ferramentas e rotina profissional. Foi elaborada uma apresentação com exemplos práticos e uma demonstração de como esses testes são realizados, destacando a identificação de gargalos, lentidão e problemas de estabilidade."
+      },
+      {
+        "label": "Opinião Pessoal",
+        "text": "\"A atividade foi interessante, pois permitiu aprofundar meus conhecimentos sobre testes de software e compreender como o desempenho influencia a experiência dos usuários. Além disso, contribuiu para desenvolver habilidades de pesquisa, análise técnica e apresentação em equipe.\""
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "url": "https://canva.link/fpuozztnsqwv5zk",
+        "label": "Abrir apresentação no Canva ↗"
+      }
+    ],
+    "videos": [],
+    "code": [],
+    "subtitle": "DESENVOLVIMENTO DE SISTEMAS / PESQUISA E APRESENTAÇÃO"
+  },
+  {
     "id": "humanas-1",
     "title": "Criação de Jornal de Época",
     "category": "Humanas",
@@ -293,6 +382,121 @@
     "videos": [],
     "code": [],
     "subtitle": "CIÊNCIAS HUMANAS / TOTALITARISMO NO CINEMA"
+  },
+  {
+    "id": "humanas-7",
+    "title": "Galeria de Fotos – Era Vargas",
+    "category": "Humanas",
+    "trimester": 3,
+    "source": "humanas.html",
+    "tags": ["Pesquisa histórica", "Galeria de fotos virtual", "Canva"],
+    "description": "Compreender a trajetória política de Getúlio Vargas e os impactos de seus governos na história do Brasil, analisando fotografias históricas e relacionando-as aos acontecimentos políticos, econômicos e sociais da época.",
+    "fields": [
+      {
+        "label": "Habilidades",
+        "text": "C4 e H26"
+      },
+      {
+        "label": "Objetivo",
+        "text": "Compreender a trajetória política de Getúlio Vargas e os impactos de seus governos na história do Brasil, analisando fotografias históricas e relacionando-as aos acontecimentos políticos, econômicos e sociais da época."
+      },
+      {
+        "label": "Descrição",
+        "text": "A atividade consistiu na elaboração de uma galeria virtual com cinco fotografias históricas sobre a Era Vargas. Cada imagem foi acompanhada de informações sobre sua data, fonte, contexto e importância histórica, abordando acontecimentos como a Revolução de 1930, o Estado Novo, as políticas trabalhistas e o retorno de Vargas à presidência."
+      },
+      {
+        "label": "Opinião Pessoal",
+        "text": "\"A atividade foi interessante, pois permitiu compreender melhor a Era Vargas por meio de imagens históricas, identificando tanto os avanços trabalhistas e econômicos quanto o autoritarismo e a censura presentes em seu governo.\""
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "url": "https://canva.link/kll9rs5bwlwsub0",
+        "label": "Abrir atividade no Canva ↗"
+      }
+    ],
+    "videos": [],
+    "code": [],
+    "subtitle": "HISTÓRIA / PESQUISA E CANVA"
+  },
+  {
+    "id": "humanas-8",
+    "title": "Brasil nos Anos 1950 – Transformações e Sociedade",
+    "category": "Humanas",
+    "trimester": 3,
+    "source": "humanas.html",
+    "tags": ["Pesquisa histórica", "Apresentação em duplas", "Canva"],
+    "description": "Compreender as principais transformações ocorridas no Brasil durante a década de 1950, analisando o desenvolvimento econômico, as mudanças políticas, os costumes e os avanços sociais que marcaram esse período.",
+    "fields": [
+      {
+        "label": "Habilidades",
+        "text": "Análise das transformações econômicas, políticas, sociais e culturais, das mudanças no mundo do trabalho e do papel das instituições na sociedade brasileira."
+      },
+      {
+        "label": "Objetivo",
+        "text": "Compreender as principais transformações ocorridas no Brasil durante a década de 1950, analisando o desenvolvimento econômico, as mudanças políticas, os costumes e os avanços sociais que marcaram esse período."
+      },
+      {
+        "label": "Descrição",
+        "text": "A atividade consistiu na elaboração de uma apresentação sobre o Brasil nos anos 1950, abordando aspectos econômicos, políticos, sociais e culturais. Foram incluídas uma linha do tempo dos presidentes da década, com breves biografias, e uma galeria com fotografias históricas, ilustrando o cotidiano, a moda, a música, os automóveis e os costumes da época."
+      },
+      {
+        "label": "Opinião Pessoal",
+        "text": "\"A atividade foi interessante, pois permitiu conhecer melhor as transformações do Brasil nos anos 1950, compreendendo como o desenvolvimento industrial, as mudanças políticas e os novos hábitos culturais influenciaram a sociedade brasileira.\""
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "url": "https://canva.link/ryv3vzkvlfrtaho",
+        "label": "Abrir atividade no Canva ↗"
+      }
+    ],
+    "videos": [],
+    "code": [],
+    "subtitle": "HISTÓRIA / PESQUISA E APRESENTAÇÃO"
+  },
+  {
+    "id": "humanas-9",
+    "title": "República Liberal (1945–1964)",
+    "category": "Humanas",
+    "trimester": 3,
+    "source": "humanas.html",
+    "tags": [
+      "Pesquisa histórica",
+      "Preenchimento de tabela",
+      "Discussão em sala"
+    ],
+    "description": "Compreender as principais características da República Liberal (1945–1964), analisando os diferentes governos do período e seus impactos políticos, econômicos e sociais no Brasil.",
+    "fields": [
+      {
+        "label": "Habilidades",
+        "text": "Análise das transformações políticas, econômicas e sociais do Brasil, compreendendo o papel dos governos e das instituições na sociedade brasileira."
+      },
+      {
+        "label": "Objetivo",
+        "text": "Compreender as principais características da República Liberal (1945–1964), analisando os diferentes governos do período e seus impactos políticos, econômicos e sociais no Brasil."
+      },
+      {
+        "label": "Descrição",
+        "text": "A atividade consistiu em uma pesquisa sobre os presidentes da República Liberal, organizando em uma tabela os períodos de governo e seus principais pontos positivos e negativos. Também foram discutidas as transformações da sociedade brasileira nos anos 1950, relacionando os acontecimentos históricos às decisões dos governantes."
+      },
+      {
+        "label": "Opinião Pessoal",
+        "text": "\"A atividade foi importante para compreender melhor os diferentes governos da República Liberal, permitindo analisar suas decisões, conquistas e dificuldades, além de entender como esse período influenciou a história política e social do Brasil.\""
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "url": "https://canva.link/u1aauab814n879u",
+        "label": "Abrir atividade no Canva ↗"
+      }
+    ],
+    "videos": [],
+    "code": [],
+    "subtitle": "HISTÓRIA / PESQUISA E TABELA"
   },
   {
     "id": "iot-1",
@@ -623,6 +827,93 @@
     "videos": [],
     "code": [],
     "subtitle": "LÍNGUA PORTUGUESA / MANIFESTO CONTEMPORÂNEO"
+  },
+  {
+    "id": "linguagens-6",
+    "title": "Produção de Redações – Plataforma Imagine",
+    "category": "Linguagens",
+    "trimester": 3,
+    "source": "linguagens.html",
+    "tags": ["Produção de redações", "Plataforma Imagine", "Análise crítica"],
+    "description": "Desenvolver a escrita argumentativa e a capacidade de organizar ideias, aprimorando a estrutura textual, a coesão, a coerência e o pensamento crítico por meio da produção de redações.",
+    "fields": [
+      {
+        "label": "Habilidades",
+        "text": "C4 e H22"
+      },
+      {
+        "label": "Objetivo",
+        "text": "Desenvolver a escrita argumentativa e a capacidade de organizar ideias, aprimorando a estrutura textual, a coesão, a coerência e o pensamento crítico por meio da produção de redações."
+      },
+      {
+        "label": "Descrição",
+        "text": "A atividade consistiu na produção de redações na plataforma Imagine, seguindo uma estrutura textual estabelecida. Após a realização das produções, foi selecionada uma redação para inclusão no portfólio, acompanhada de uma análise crítica sobre os pontos positivos e os aspectos que poderiam ser aprimorados."
+      },
+      {
+        "label": "Redação selecionada",
+        "text": "Os desafios para o desenvolvimento da leitura crítica em uma sociedade marcada pelo consumo acelerado de informações."
+      },
+      {
+        "label": "Resultado",
+        "text": "Nota: 920 pontos. Corrigida em 04/11/2026, conforme o espelho de correção anexado."
+      },
+      {
+        "label": "Opinião Pessoal",
+        "text": "\"A atividade foi importante para desenvolver minhas habilidades de escrita e argumentação, permitindo identificar meus pontos fortes e as dificuldades que ainda preciso melhorar, principalmente na organização das ideias e no desenvolvimento dos argumentos.\""
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "url": "/assets/atividades/espelho-correcao.pdf",
+        "label": "Ver correção da redação (PDF) ↗"
+      }
+    ],
+    "videos": [],
+    "code": [],
+    "subtitle": "LÍNGUA PORTUGUESA / PRODUÇÃO TEXTUAL"
+  },
+  {
+    "id": "linguagens-7",
+    "title": "Narrativas Hiperlinks – Secos e Molhados",
+    "category": "Linguagens",
+    "trimester": 3,
+    "source": "linguagens.html",
+    "tags": [
+      "Pesquisa histórica e cultural",
+      "Produção de narrativa investigativa",
+      "Desenvolvimento de site interativo",
+      "Trabalho em grupo"
+    ],
+    "description": "Explorar a relação entre literatura, música e tecnologia por meio da criação de uma narrativa digital interativa, utilizando como inspiração as músicas do grupo Secos e Molhados e o contexto histórico brasileiro da década de 1970.",
+    "fields": [
+      {
+        "label": "Habilidades",
+        "text": "C3 e H15"
+      },
+      {
+        "label": "Objetivo",
+        "text": "Explorar a relação entre literatura, música e tecnologia por meio da criação de uma narrativa digital interativa, utilizando como inspiração as músicas do grupo Secos e Molhados e o contexto histórico brasileiro da década de 1970."
+      },
+      {
+        "label": "Descrição",
+        "text": "A atividade consistiu na criação de um site com uma narrativa investigativa inspirada no álbum de 1973 dos Secos e Molhados. O projeto envolveu pesquisa histórica, desenvolvimento de personagens, criação de diferentes caminhos e finais interativos, além da integração de elementos visuais e musicais para proporcionar uma experiência de leitura dinâmica."
+      },
+      {
+        "label": "Opinião Pessoal",
+        "text": "\"A atividade foi interessante, pois permitiu unir literatura, música e programação em um projeto criativo. Além de conhecer melhor o contexto histórico dos Secos e Molhados, foi uma oportunidade de desenvolver habilidades de criação digital, organização de ideias e trabalho em equipe.\""
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "url": "https://sitesecosmolhados.netlify.app/",
+        "label": "Abrir site interativo ↗"
+      }
+    ],
+    "videos": [],
+    "code": [],
+    "subtitle": "LÍNGUA PORTUGUESA / LITERATURA DIGITAL E SITE INTERATIVO"
   },
   {
     "id": "matematica-1",
@@ -1064,5 +1355,130 @@
     "videos": [],
     "code": [],
     "subtitle": "QUÍMICA / PORTFÓLIO DIGITAL DE ELETROQUÍMICA"
+  },
+  {
+    "id": "natureza-8",
+    "title": "Ciclos Biogeoquímicos",
+    "category": "Natureza",
+    "trimester": 3,
+    "source": "natureza.html",
+    "tags": [
+      "Aula teórica",
+      "Atividade de fixação",
+      "Lista de exercícios Geekie"
+    ],
+    "description": "Compreender o funcionamento dos ciclos biogeoquímicos e sua importância para o equilíbrio dos ecossistemas, analisando a circulação dos elementos químicos na natureza e sua relação com os seres vivos e o meio ambiente.",
+    "fields": [
+      {
+        "label": "Habilidades",
+        "text": "C1, H4, C2, H11, C5 e H24"
+      },
+      {
+        "label": "Objetivo",
+        "text": "Compreender o funcionamento dos ciclos biogeoquímicos e sua importância para o equilíbrio dos ecossistemas, analisando a circulação dos elementos químicos na natureza e sua relação com os seres vivos e o meio ambiente."
+      },
+      {
+        "label": "Descrição",
+        "text": "A atividade consistiu em aulas teóricas sobre os principais ciclos biogeoquímicos, como os ciclos da água, do carbono, do nitrogênio e do fósforo. Em seguida, foram realizadas atividades de fixação e exercícios na plataforma Geekie, relacionando os conceitos estudados aos fenômenos naturais e à manutenção da vida no planeta."
+      },
+      {
+        "label": "Opinião Pessoal",
+        "text": "\"A atividade foi interessante, pois permitiu compreender melhor como os elementos químicos circulam na natureza e como esses processos são essenciais para o equilíbrio ambiental e a preservação dos ecossistemas.\""
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "url": "https://canva.link/doz1640arm1c2mx",
+        "label": "Abrir atividade no Canva ↗"
+      }
+    ],
+    "videos": [],
+    "code": [],
+    "subtitle": "BIOLOGIA / ATIVIDADE E EXERCÍCIOS"
+  },
+  {
+    "id": "natureza-9",
+    "title": "Eletromagnetismo",
+    "category": "Natureza",
+    "trimester": 3,
+    "source": "natureza.html",
+    "tags": [
+      "Produção de infográfico em duplas",
+      "Canva",
+      "Revisão de conteúdos",
+      "Resolução e classificação de questões"
+    ],
+    "description": "Compreender os princípios do eletromagnetismo e suas aplicações no cotidiano, desenvolvendo a capacidade de relacionar conceitos físicos às tecnologias presentes na sociedade. Além disso, revisar conteúdos de Ciências da Natureza para o Avalia SESI II.",
+    "fields": [
+      {
+        "label": "Habilidades",
+        "text": "C1, C2, C3, C4, C5 e C6. H1, H3, H6, H7, H10, H11, H15, H18, H23, H24, H25, H26, H27, H28, H34, H35 e H36."
+      },
+      {
+        "label": "Objetivo",
+        "text": "Compreender os princípios do eletromagnetismo e suas aplicações no cotidiano, desenvolvendo a capacidade de relacionar conceitos físicos às tecnologias presentes na sociedade. Além disso, revisar conteúdos de Ciências da Natureza para o Avalia SESI II."
+      },
+      {
+        "label": "Descrição",
+        "text": "A atividade foi dividida em duas etapas. Na primeira, foi produzido um infográfico em duplas sobre o eletromagnetismo e suas aplicações no mundo real. Na segunda, foi realizada uma revisão para o Avalia SESI II, envolvendo a leitura de um resumo, a resolução de questões e sua classificação conforme as habilidades trabalhadas."
+      },
+      {
+        "label": "Opinião Pessoal",
+        "text": "\"A atividade foi interessante, pois permitiu compreender melhor as aplicações do eletromagnetismo no cotidiano e reforçar os conhecimentos de Ciências da Natureza por meio da revisão e resolução de exercícios.\""
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "url": "https://docs.google.com/presentation/d/1VTojN0i3B1W3t6GtBTssynOF6uD0htss/edit?usp=sharing&ouid=107134171178478720799&rtpof=true&sd=true",
+        "label": "Abrir apresentação no Google Slides ↗"
+      }
+    ],
+    "videos": [],
+    "code": [],
+    "subtitle": "FÍSICA / INFOGRÁFICO E ATIVIDADE DE REVISÃO"
+  },
+  {
+    "id": "natureza-10",
+    "title": "Química Orgânica – Extração de Óleos Essenciais",
+    "category": "Natureza",
+    "trimester": 3,
+    "source": "natureza.html",
+    "tags": [
+      "Pesquisa individual",
+      "Extração de óleo essencial",
+      "Produção de e-book em grupo",
+      "Registros fotográficos"
+    ],
+    "description": "Compreender os conceitos de Química Orgânica por meio do estudo de plantas e seus óleos essenciais, identificando suas propriedades químicas, características e processos de extração, relacionando teoria e prática.",
+    "fields": [
+      {
+        "label": "Habilidades",
+        "text": "H12, H24 e H25"
+      },
+      {
+        "label": "Objetivo",
+        "text": "Compreender os conceitos de Química Orgânica por meio do estudo de plantas e seus óleos essenciais, identificando suas propriedades químicas, características e processos de extração, relacionando teoria e prática."
+      },
+      {
+        "label": "Descrição",
+        "text": "A atividade consistiu na realização de uma pesquisa individual sobre uma planta e as substâncias presentes em seu óleo essencial. Em grupo, foi desenvolvido um e-book reunindo as informações pesquisadas, os procedimentos de extração e os registros fotográficos do experimento, relacionando os conhecimentos de Química Orgânica às aplicações práticas."
+      },
+      {
+        "label": "Opinião Pessoal",
+        "text": "\"A atividade foi interessante, pois permitiu relacionar os conceitos de Química Orgânica com uma experiência prática, compreendendo melhor as propriedades dos óleos essenciais e a importância da pesquisa e do trabalho em equipe.\""
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "url": "https://chimerical-bublanina-632e4a.netlify.app/",
+        "label": "Abrir e-book / projeto ↗"
+      }
+    ],
+    "videos": [],
+    "code": [],
+    "subtitle": "QUÍMICA / PESQUISA, EXPERIMENTO E E-BOOK"
   }
 ]

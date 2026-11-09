@@ -10,6 +10,9 @@ const browser = await chromium.launch({
   headless: true,
 });
 await fs.mkdir('artifacts', { recursive: true });
+const projects = JSON.parse(
+  await fs.readFile('src/data/projects.json', 'utf8'),
+);
 const report = [];
 try {
   for (const width of [360, 768, 1280, 1920]) {
@@ -22,7 +25,7 @@ try {
     page.on('pageerror', (e) => errors.push(e.message));
     await page.goto(base, { waitUntil: 'networkidle' });
     await page.evaluate(() => document.fonts.ready);
-    assert.equal(await page.locator('.project-card').count(), 29);
+    assert.equal(await page.locator('.project-card').count(), projects.length);
     assert.equal(
       await page.locator('form, #contato, a[href$="#contato"]').count(),
       0,
@@ -91,7 +94,10 @@ try {
     await page.locator('#project-search').fill('');
     await page.locator('#trimester').selectOption('all');
     await page.getByRole('button', { name: /Todos/ }).click();
-    assert.equal(await page.locator('.project-card:visible').count(), 29);
+    assert.equal(
+      await page.locator('.project-card:visible').count(),
+      projects.length,
+    );
     if (width < 1100) {
       await page.locator('#menu-toggle').click();
       assert.equal(
@@ -130,7 +136,7 @@ try {
   }
   const page = await browser.newPage({ javaScriptEnabled: false });
   await page.goto(base);
-  assert.equal(await page.locator('.project-card').count(), 29);
+  assert.equal(await page.locator('.project-card').count(), projects.length);
   assert.equal(await page.locator('form').count(), 0);
   await page.close();
 } finally {

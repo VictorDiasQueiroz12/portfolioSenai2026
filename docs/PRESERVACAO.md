@@ -36,6 +36,38 @@ Cada linha corresponde a um registro original. Os materiais e relatos completos 
 - [x] Currículo oficial atualizado, carta pessoal, redes sociais e portfólio 2025.
 - [x] Trimestres disponíveis no filtro global, incluindo estado vazio do terceiro.
 - [x] Referência de preservação em `tests/fixtures/preservation.json` e versões anteriores no histórico Git.
-- [x] Rotas das oito disciplinas e currículo continuam disponíveis.
+- [x] Rotas das oito disciplinas originais e currículo continuam disponíveis.
 
 Validação automatizada: `npm test`, depois de `npm run build`.
+
+## Atividades adicionadas em 09/11/2026
+
+- [x] **Galeria de Fotos – Era Vargas** — Humanas / 3º trimestre; `/projetos/humanas-7/`; textos completos e link Canva incluídos.
+- [x] **Brasil nos Anos 1950 – Transformações e Sociedade** — Humanas / 3º trimestre; `/projetos/humanas-8/`; textos completos e link Canva incluídos.
+- [x] **República Liberal (1945–1964)** — Humanas / 3º trimestre; `/projetos/humanas-9/`; textos completos e link Canva incluídos.
+
+Total após as adições de Humanas: 32 registros. As 29 atividades originais permanecem intactas.
+
+## Natureza — atividades adicionadas em 09/11/2026
+
+- [x] **Ciclos Biogeoquímicos** — Natureza / 3º trimestre; `/projetos/natureza-8/`; textos completos e link de material incluídos.
+- [x] **Eletromagnetismo** — Natureza / 3º trimestre; `/projetos/natureza-9/`; textos completos e link de material incluídos.
+- [x] **Química Orgânica – Extração de Óleos Essenciais** — Natureza / 3º trimestre; `/projetos/natureza-10/`; textos completos e link de material incluídos.
+
+Total após as adições de Natureza: 35 registros. Todas as atividades anteriores foram preservadas.
+
+## Linguagens — atividades adicionadas em 09/11/2026
+
+- [x] **Produção de Redações – Plataforma Imagine** — Linguagens / 3º trimestre; `/projetos/linguagens-6/`; textos completos e material incluídos.
+- [x] **Narrativas Hiperlinks – Secos e Molhados** — Linguagens / 3º trimestre; `/projetos/linguagens-7/`; textos completos e material incluídos.
+- [x] Espelho de correção: PDF integral em `public/assets/atividades/espelho-correcao.pdf`; nota 920 e data 04/11/2026 conferidas no documento.
+
+Total após as adições de Linguagens: 37 registros. Todas as atividades anteriores foram preservadas.
+
+## Teste de Sistemas — nova matéria adicionada em 09/11/2026
+
+- [x] Matéria criada: **Teste de Sistemas**, disponível no filtro de categorias e em `/teste-sistemas.html`.
+- [x] **Innovation Camp – Hackathon Tech SC** — Teste de Sistemas / 3º trimestre; `/projetos/teste-sistemas-1/`; textos completos e 2 links Canva preservados.
+- [x] **Testes de Desempenho de Software** — Teste de Sistemas / 3º trimestre; `/projetos/teste-sistemas-2/`; textos completos e 1 links Canva preservados.
+
+Total atual: 39 registros em 9 matérias. Todas as atividades anteriores foram preservadas.
