@@ -98,4 +98,8 @@ As dez imagens enviadas foram associadas às atividades na ordem indicada. Capas
 - [x] `natureza-10` → `public/fotos/oleos-essenciais.png`.
 - [x] `natureza-7` → `public/fotos/eletroquimica-capa.png`.
 
-A imagem anterior de Eletroquímica permanece nos detalhes, junto da nova capa. A capa do Innovation Camp usa agora o arquivo original enviado, em vez da miniatura da apresentação. Os textos, links, PDFs e registros foram mantidos.
+Em Eletroquímica, apenas a capa enviada pelo autor é exibida nos detalhes; a segunda imagem foi retirada por solicitação expressa. A capa do Innovation Camp usa agora o arquivo original enviado, em vez da miniatura da apresentação. Os textos, links, PDFs e registros foram mantidos.
+
+### Eletroquímica — imagem única
+
+- [x] Removida a referência ao segundo registro visual de `natureza-7`. Apenas `fotos/eletroquimica-capa.png` é exibida. Textos, links e vídeo do experimento preservados.

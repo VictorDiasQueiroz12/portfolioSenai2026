@@ -28,11 +28,17 @@ for (const original of baseline.projects) {
     originalContent,
     'Original record changed: ' + original.id,
   );
-  for (const image of originalImages)
+  for (const image of originalImages) {
+    // Substituição expressamente solicitada pelo autor: Eletroquímica tem apenas a nova capa.
+    const expectedImage =
+      original.id === 'natureza-7' && image === 'fotos/video_eletroquimica.png'
+        ? 'fotos/eletroquimica-capa.png'
+        : image;
     assert.ok(
-      currentImages.includes(image),
-      'Original image removed: ' + image,
+      currentImages.includes(expectedImage),
+      'Expected image missing: ' + expectedImage,
     );
+  }
   const built = fs.readFileSync(
     'dist/projetos/' + p.id + '/index.html',
     'utf8',
