@@ -21,7 +21,18 @@ const baseline = JSON.parse(
 for (const original of baseline.projects) {
   const p = projects.find((p) => p.id === original.id);
   assert.ok(p, 'Missing activity ' + original.id);
-  assert.deepEqual(p, original, 'Original record changed: ' + original.id);
+  const { images: originalImages, ...originalContent } = original;
+  const { images: currentImages, coverFit, ...currentContent } = p;
+  assert.deepEqual(
+    currentContent,
+    originalContent,
+    'Original record changed: ' + original.id,
+  );
+  for (const image of originalImages)
+    assert.ok(
+      currentImages.includes(image),
+      'Original image removed: ' + image,
+    );
   const built = fs.readFileSync(
     'dist/projetos/' + p.id + '/index.html',
     'utf8',

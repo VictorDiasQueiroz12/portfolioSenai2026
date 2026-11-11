@@ -73,6 +73,54 @@
     "subtitle": "DESENVOLVIMENTO DE SISTEMAS / GATEWAY DE PAGAMENTO"
   },
   {
+    "id": "desenvolvimento-2",
+    "title": "Innovation Camp – Hackathon Tech SC",
+    "category": "Desenvolvimento",
+    "trimester": 3,
+    "source": "desenvolvimento.html",
+    "tags": [
+      "Pesquisa e Design Thinking",
+      "Brainstorming e trabalho em equipe",
+      "Desenvolvimento de proposta inovadora",
+      "Prototipação e apresentação de pitch",
+      "Canva"
+    ],
+    "description": "Desenvolver habilidades de empreendedorismo e inovação por meio da criação de soluções para desafios reais, aplicando metodologias como Design Thinking, pesquisa de mercado e prototipação para conectar os jovens à tecnologia e às empresas de Santa Catarina.",
+    "fields": [
+      {
+        "label": "Habilidades",
+        "text": "Criatividade, pensamento crítico, resolução de problemas, empreendedorismo, comunicação, colaboração e inovação tecnológica."
+      },
+      {
+        "label": "Objetivo",
+        "text": "Desenvolver habilidades de empreendedorismo e inovação por meio da criação de soluções para desafios reais, aplicando metodologias como Design Thinking, pesquisa de mercado e prototipação para conectar os jovens à tecnologia e às empresas de Santa Catarina."
+      },
+      {
+        "label": "Descrição",
+        "text": "A atividade consistiu na participação no Hackathon Tech SC, promovido em parceria com a Junior Achievement, SESI SENAI e NSC TV. Em equipe, foi desenvolvido um projeto para aproximar os jovens das empresas e marcas patrocinadoras de conteúdos sobre tecnologia e inovação. Foram utilizadas ferramentas como Matriz CSD, pesquisa exploratória, mapa da empatia e brainstorming, além da elaboração de uma proposta de valor, prototipação e apresentação de um pitch."
+      },
+      {
+        "label": "Opinião Pessoal",
+        "text": "\"A atividade foi uma experiência enriquecedora, pois permitiu aplicar conhecimentos de tecnologia, criatividade e empreendedorismo na resolução de um desafio real. Além de desenvolver o trabalho em equipe e a comunicação, foi uma oportunidade de entender melhor como transformar ideias em propostas inovadoras e apresentá-las de maneira profissional.\""
+      }
+    ],
+    "images": ["fotos/innovation-camp.png"],
+    "links": [
+      {
+        "url": "https://canva.link/m24d8moh0knp0t3",
+        "label": "Abrir material do Innovation Camp no Canva ↗"
+      },
+      {
+        "url": "https://canva.link/fpuozztnsqwv5zk",
+        "label": "Abrir segundo material no Canva ↗"
+      }
+    ],
+    "videos": [],
+    "code": [],
+    "subtitle": "DESENVOLVIMENTO DE SISTEMAS / EMPREENDEDORISMO E INOVAÇÃO",
+    "coverFit": "contain"
+  },
+  {
     "id": "teste-sistemas-1",
     "title": "Innovation Camp – Hackathon Tech SC",
     "category": "Teste de Sistemas",
@@ -104,7 +152,7 @@
         "text": "\"A atividade foi uma experiência enriquecedora, pois permitiu aplicar conhecimentos de tecnologia, criatividade e empreendedorismo na resolução de um desafio real. Além de desenvolver o trabalho em equipe e a comunicação, foi uma oportunidade de entender melhor como transformar ideias em propostas inovadoras e apresentá-las de maneira profissional.\""
       }
     ],
-    "images": [],
+    "images": ["fotos/innovation-camp.png"],
     "links": [
       {
         "url": "https://canva.link/m24d8moh0knp0t3",
@@ -117,7 +165,8 @@
     ],
     "videos": [],
     "code": [],
-    "subtitle": "DESENVOLVIMENTO DE SISTEMAS / EMPREENDEDORISMO E INOVAÇÃO"
+    "subtitle": "DESENVOLVIMENTO DE SISTEMAS / EMPREENDEDORISMO E INOVAÇÃO",
+    "coverFit": "contain"
   },
   {
     "id": "teste-sistemas-2",
@@ -150,7 +199,7 @@
         "text": "\"A atividade foi interessante, pois permitiu aprofundar meus conhecimentos sobre testes de software e compreender como o desempenho influencia a experiência dos usuários. Além disso, contribuiu para desenvolver habilidades de pesquisa, análise técnica e apresentação em equipe.\""
       }
     ],
-    "images": [],
+    "images": ["fotos/testes-desempenho.png"],
     "links": [
       {
         "url": "https://canva.link/fpuozztnsqwv5zk",
@@ -159,7 +208,8 @@
     ],
     "videos": [],
     "code": [],
-    "subtitle": "DESENVOLVIMENTO DE SISTEMAS / PESQUISA E APRESENTAÇÃO"
+    "subtitle": "DESENVOLVIMENTO DE SISTEMAS / PESQUISA E APRESENTAÇÃO",
+    "coverFit": "contain"
   },
   {
     "id": "humanas-1",
@@ -409,7 +459,7 @@
         "text": "\"A atividade foi interessante, pois permitiu compreender melhor a Era Vargas por meio de imagens históricas, identificando tanto os avanços trabalhistas e econômicos quanto o autoritarismo e a censura presentes em seu governo.\""
       }
     ],
-    "images": [],
+    "images": ["fotos/era-vargas.png"],
     "links": [
       {
         "url": "https://canva.link/kll9rs5bwlwsub0",
@@ -418,7 +468,8 @@
     ],
     "videos": [],
     "code": [],
-    "subtitle": "HISTÓRIA / PESQUISA E CANVA"
+    "subtitle": "HISTÓRIA / PESQUISA E CANVA",
+    "coverFit": "contain"
   },
   {
     "id": "humanas-8",
@@ -446,7 +497,7 @@
         "text": "\"A atividade foi interessante, pois permitiu conhecer melhor as transformações do Brasil nos anos 1950, compreendendo como o desenvolvimento industrial, as mudanças políticas e os novos hábitos culturais influenciaram a sociedade brasileira.\""
       }
     ],
-    "images": [],
+    "images": ["fotos/brasil-anos-1950.png"],
     "links": [
       {
         "url": "https://canva.link/ryv3vzkvlfrtaho",
@@ -455,7 +506,8 @@
     ],
     "videos": [],
     "code": [],
-    "subtitle": "HISTÓRIA / PESQUISA E APRESENTAÇÃO"
+    "subtitle": "HISTÓRIA / PESQUISA E APRESENTAÇÃO",
+    "coverFit": "contain"
   },
   {
     "id": "humanas-9",
@@ -487,7 +539,7 @@
         "text": "\"A atividade foi importante para compreender melhor os diferentes governos da República Liberal, permitindo analisar suas decisões, conquistas e dificuldades, além de entender como esse período influenciou a história política e social do Brasil.\""
       }
     ],
-    "images": [],
+    "images": ["fotos/republica-liberal.png"],
     "links": [
       {
         "url": "https://canva.link/u1aauab814n879u",
@@ -496,7 +548,8 @@
     ],
     "videos": [],
     "code": [],
-    "subtitle": "HISTÓRIA / PESQUISA E TABELA"
+    "subtitle": "HISTÓRIA / PESQUISA E TABELA",
+    "coverFit": "contain"
   },
   {
     "id": "iot-1",
@@ -862,7 +915,7 @@
         "text": "\"A atividade foi importante para desenvolver minhas habilidades de escrita e argumentação, permitindo identificar meus pontos fortes e as dificuldades que ainda preciso melhorar, principalmente na organização das ideias e no desenvolvimento dos argumentos.\""
       }
     ],
-    "images": [],
+    "images": ["fotos/imagine-redacao.png"],
     "links": [
       {
         "url": "/assets/atividades/espelho-correcao.pdf",
@@ -871,7 +924,8 @@
     ],
     "videos": [],
     "code": [],
-    "subtitle": "LÍNGUA PORTUGUESA / PRODUÇÃO TEXTUAL"
+    "subtitle": "LÍNGUA PORTUGUESA / PRODUÇÃO TEXTUAL",
+    "coverFit": "contain"
   },
   {
     "id": "linguagens-7",
@@ -904,7 +958,7 @@
         "text": "\"A atividade foi interessante, pois permitiu unir literatura, música e programação em um projeto criativo. Além de conhecer melhor o contexto histórico dos Secos e Molhados, foi uma oportunidade de desenvolver habilidades de criação digital, organização de ideias e trabalho em equipe.\""
       }
     ],
-    "images": [],
+    "images": ["fotos/secos-molhados.png"],
     "links": [
       {
         "url": "https://sitesecosmolhados.netlify.app/",
@@ -913,7 +967,8 @@
     ],
     "videos": [],
     "code": [],
-    "subtitle": "LÍNGUA PORTUGUESA / LITERATURA DIGITAL E SITE INTERATIVO"
+    "subtitle": "LÍNGUA PORTUGUESA / LITERATURA DIGITAL E SITE INTERATIVO",
+    "coverFit": "contain"
   },
   {
     "id": "matematica-1",
@@ -1341,7 +1396,7 @@
         "text": "\"A atividade foi interessante e prática, pois permitiu observar os conceitos de Eletroquímica diretamente em um experimento, tornando mais fácil compreender as transformações de energia e matéria estudadas em sala.\""
       }
     ],
-    "images": ["fotos/video_eletroquimica.png"],
+    "images": ["fotos/eletroquimica-capa.png", "fotos/video_eletroquimica.png"],
     "links": [
       {
         "url": "https://ste-romuel-eletroquimica.netlify.app",
@@ -1354,7 +1409,8 @@
     ],
     "videos": [],
     "code": [],
-    "subtitle": "QUÍMICA / PORTFÓLIO DIGITAL DE ELETROQUÍMICA"
+    "subtitle": "QUÍMICA / PORTFÓLIO DIGITAL DE ELETROQUÍMICA",
+    "coverFit": "contain"
   },
   {
     "id": "natureza-8",
@@ -1386,7 +1442,7 @@
         "text": "\"A atividade foi interessante, pois permitiu compreender melhor como os elementos químicos circulam na natureza e como esses processos são essenciais para o equilíbrio ambiental e a preservação dos ecossistemas.\""
       }
     ],
-    "images": [],
+    "images": ["fotos/ciclos-biogeoquimicos.png"],
     "links": [
       {
         "url": "https://canva.link/doz1640arm1c2mx",
@@ -1395,7 +1451,8 @@
     ],
     "videos": [],
     "code": [],
-    "subtitle": "BIOLOGIA / ATIVIDADE E EXERCÍCIOS"
+    "subtitle": "BIOLOGIA / ATIVIDADE E EXERCÍCIOS",
+    "coverFit": "contain"
   },
   {
     "id": "natureza-9",
@@ -1428,7 +1485,7 @@
         "text": "\"A atividade foi interessante, pois permitiu compreender melhor as aplicações do eletromagnetismo no cotidiano e reforçar os conhecimentos de Ciências da Natureza por meio da revisão e resolução de exercícios.\""
       }
     ],
-    "images": [],
+    "images": ["fotos/eletromagnetismo.png"],
     "links": [
       {
         "url": "https://docs.google.com/presentation/d/1VTojN0i3B1W3t6GtBTssynOF6uD0htss/edit?usp=sharing&ouid=107134171178478720799&rtpof=true&sd=true",
@@ -1437,7 +1494,8 @@
     ],
     "videos": [],
     "code": [],
-    "subtitle": "FÍSICA / INFOGRÁFICO E ATIVIDADE DE REVISÃO"
+    "subtitle": "FÍSICA / INFOGRÁFICO E ATIVIDADE DE REVISÃO",
+    "coverFit": "contain"
   },
   {
     "id": "natureza-10",
@@ -1470,7 +1528,7 @@
         "text": "\"A atividade foi interessante, pois permitiu relacionar os conceitos de Química Orgânica com uma experiência prática, compreendendo melhor as propriedades dos óleos essenciais e a importância da pesquisa e do trabalho em equipe.\""
       }
     ],
-    "images": [],
+    "images": ["fotos/oleos-essenciais.png"],
     "links": [
       {
         "url": "https://chimerical-bublanina-632e4a.netlify.app/",
@@ -1479,6 +1537,7 @@
     ],
     "videos": [],
     "code": [],
-    "subtitle": "QUÍMICA / PESQUISA, EXPERIMENTO E E-BOOK"
+    "subtitle": "QUÍMICA / PESQUISA, EXPERIMENTO E E-BOOK",
+    "coverFit": "contain"
   }
 ]

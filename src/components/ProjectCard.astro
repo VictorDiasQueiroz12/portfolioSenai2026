@@ -31,6 +31,7 @@ const code = p.links.find((l) => l.url.includes('github.com'));
     {p.images.length ? (
       <img
         src={optimized(p.images[0])}
+        style={p.coverFit === 'contain' ? 'object-fit: contain' : undefined}
         alt=""
         width="960"
         height="640"

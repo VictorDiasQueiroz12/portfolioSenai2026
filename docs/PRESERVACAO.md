@@ -70,4 +70,32 @@ Total após as adições de Linguagens: 37 registros. Todas as atividades anteri
 - [x] **Innovation Camp – Hackathon Tech SC** — Teste de Sistemas / 3º trimestre; `/projetos/teste-sistemas-1/`; textos completos e 2 links Canva preservados.
 - [x] **Testes de Desempenho de Software** — Teste de Sistemas / 3º trimestre; `/projetos/teste-sistemas-2/`; textos completos e 1 links Canva preservados.
 
-Total atual: 39 registros em 9 matérias. Todas as atividades anteriores foram preservadas.
+Total após a criação de Teste de Sistemas: 39 registros em 9 matérias. Todas as atividades anteriores foram preservadas.
+
+## Desenvolvimento — inclusão em 11/11/2026
+
+- [x] **Innovation Camp – Hackathon Tech SC** (Mundo SENAI, identificado pelo autor) incluído também em Desenvolvimento / 3º trimestre; `/projetos/desenvolvimento-2/`.
+- [x] Textos e os dois links preservados da atividade existente em Teste de Sistemas; o registro `/projetos/teste-sistemas-1/` foi mantido.
+
+Total atual: 40 registros em 9 matérias. Todas as atividades anteriores foram preservadas.
+
+### Capa do Innovation Camp — 11/11/2026
+
+- [x] Capa Tech SC Conecta adicionada aos registros de Innovation Camp em Desenvolvimento e Teste de Sistemas. Imagem compartilhada em `public/fotos/innovation-camp.png`, com WebP gerado no build. Textos e links mantidos.
+
+### Capas das atividades — 11/11/2026
+
+As dez imagens enviadas foram associadas às atividades na ordem indicada. Capas com texto e imagens verticais usam enquadramento integral (`coverFit: contain`), sem recorte.
+
+- [x] `teste-sistemas-2` → `public/fotos/testes-desempenho.png`.
+- [x] `humanas-7` → `public/fotos/era-vargas.png`.
+- [x] `humanas-8` → `public/fotos/brasil-anos-1950.png`.
+- [x] `humanas-9` → `public/fotos/republica-liberal.png`.
+- [x] `linguagens-6` → `public/fotos/imagine-redacao.png`.
+- [x] `linguagens-7` → `public/fotos/secos-molhados.png`.
+- [x] `natureza-8` → `public/fotos/ciclos-biogeoquimicos.png`.
+- [x] `natureza-9` → `public/fotos/eletromagnetismo.png`.
+- [x] `natureza-10` → `public/fotos/oleos-essenciais.png`.
+- [x] `natureza-7` → `public/fotos/eletroquimica-capa.png`.
+
+A imagem anterior de Eletroquímica permanece nos detalhes, junto da nova capa. A capa do Innovation Camp usa agora o arquivo original enviado, em vez da miniatura da apresentação. Os textos, links, PDFs e registros foram mantidos.
