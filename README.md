@@ -172,7 +172,7 @@ Victor Dias Queiroz. Projetos e materiais acadêmicos mantêm suas autorias e co
 
 O arquivo `public/assets/curriculo-victor-queiroz.pdf` é uma cópia integral do PDF oficial recebido. `src/data/profile.ts` centraliza sua transcrição e a procedência das habilidades. O documento informa formação e três projetos acadêmicos, mas não lista cursos complementares, certificados ou empregos. Nenhum deles foi inventado. Não há trechos ilegíveis nem itens que exijam confirmação na transcrição.
 
-A nova foto é `public/assets/img/foto-inicio.webp`; a antiga permanece no Sobre. A referência em `tests/fixtures/preservation.json` mantém os registros e hashes das imagens para os testes de integridade.
+As fotos atuais são `public/assets/img/foto-inicio.webp` no Início e `public/assets/img/foto-sobre.webp` no Sobre. A referência em `tests/fixtures/preservation.json` mantém os registros e hashes das imagens para os testes de integridade.
 
 ## Arquivos da atualização solicitada
 

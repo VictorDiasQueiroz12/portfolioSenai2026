@@ -36,7 +36,7 @@ try {
     );
     assert.equal(
       await page.locator('#sobre img').getAttribute('src'),
-      '/optimized/victor.webp',
+      '/assets/img/foto-sobre.webp',
     );
     assert.equal(
       await page.locator('#sobre img').getAttribute('loading'),

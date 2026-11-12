@@ -103,3 +103,7 @@ Em Eletroquímica, apenas a capa enviada pelo autor é exibida nos detalhes; a s
 ### Eletroquímica — imagem única
 
 - [x] Removida a referência ao segundo registro visual de `natureza-7`. Apenas `fotos/eletroquimica-capa.png` é exibida. Textos, links e vídeo do experimento preservados.
+
+### Foto do Sobre Mim — 12/11/2026
+
+- [x] Foto do Sobre substituída pela imagem enviada pelo autor em 12/11/2026, otimizada em `public/assets/img/foto-sobre.webp`, com lazy loading e alt atualizado. A foto do Início e as atividades foram mantidas.

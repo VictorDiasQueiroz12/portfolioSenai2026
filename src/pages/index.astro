@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import ProjectCard from '../components/ProjectCard.astro';
 import projects from '../data/projects.json';
-import { url, optimized } from '../lib/paths';
+import { url } from '../lib/paths';
 import { profile, skills } from '../data/profile';
 const ordered = [...projects].sort(
   (a, b) =>
@@ -95,10 +95,10 @@ const categories = [...new Set(projects.map((p) => p.category))];
       <div class="about-grid">
         <div class="about-image">
           <img
-            src={optimized('fotos/victor.jpg')}
-            alt="Victor Dias Queiroz com camiseta preta, em foto no espelho durante sua formação no SENAI"
-            width="480"
-            height="520"
+            src={url('assets/img/foto-sobre.webp')}
+            alt="Victor Dias Queiroz de suéter escuro e fones no pescoço, em frente ao espelho"
+            width="512"
+            height="683"
             loading="lazy"
           />
           <span>Victor, por trás dos projetos.</span>

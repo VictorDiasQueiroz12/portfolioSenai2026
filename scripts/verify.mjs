@@ -65,8 +65,9 @@ assert.doesNotMatch(
   /<form\b|data-netlify|netlify-honeypot|#contato|id="contato"/,
 );
 assert.ok(index.includes('/assets/img/foto-inicio.webp'));
+assert.ok(!index.includes('/optimized/victor.webp'));
 assert.equal(
-  (index.match(/src="[^"]*optimized\/victor.webp"/g) || []).length,
+  (index.match(/src="[^"]*assets\/img\/foto-sobre.webp"/g) || []).length,
   1,
 );
 assert.equal(
