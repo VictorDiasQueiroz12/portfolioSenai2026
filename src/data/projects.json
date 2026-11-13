@@ -1086,6 +1086,44 @@
     "subtitle": "MATEMÁTICA / APRESENTAÇÃO ESTATÍSTICA"
   },
   {
+    "id": "matematica-4",
+    "title": "Desafio 360° – Matemática que Transforma",
+    "category": "Matemática",
+    "trimester": 3,
+    "source": "matematica.html",
+    "tags": [
+      "Pesquisa e planejamento",
+      "Construção de ciclo trigonométrico interativo",
+      "Prototipação e testes",
+      "Apresentação em grupo",
+      "Desenvolvimento de material educativo"
+    ],
+    "description": "Compreender os conceitos de trigonometria por meio da construção de um ciclo trigonométrico interativo, relacionando ângulos, seno, cosseno e tangente. Além disso, desenvolver a criatividade, o trabalho em equipe e a capacidade de transformar conhecimentos matemáticos em recursos educativos.",
+    "fields": [
+      {
+        "label": "Habilidades",
+        "text": "C2, H5 e H16"
+      },
+      {
+        "label": "Objetivo",
+        "text": "Compreender os conceitos de trigonometria por meio da construção de um ciclo trigonométrico interativo, relacionando ângulos, seno, cosseno e tangente. Além disso, desenvolver a criatividade, o trabalho em equipe e a capacidade de transformar conhecimentos matemáticos em recursos educativos."
+      },
+      {
+        "label": "Descrição",
+        "text": "A atividade consistiu no desenvolvimento de um ciclo trigonométrico interativo em grupo, destinado a auxiliar estudantes de uma escola pública no aprendizado de Matemática. O projeto envolveu pesquisa, planejamento, construção de protótipos, testes e melhorias, além da elaboração de uma atividade educativa e apresentação dos conceitos matemáticos utilizados."
+      },
+      {
+        "label": "Opinião Pessoal",
+        "text": "\"A atividade foi interessante, pois permitiu aplicar os conhecimentos de trigonometria de uma maneira prática e criativa. Além de facilitar a compreensão dos conceitos matemáticos, o projeto incentivou o trabalho em equipe e mostrou como podemos utilizar o que aprendemos para ajudar outros estudantes.\""
+      }
+    ],
+    "images": [],
+    "links": [],
+    "videos": [],
+    "code": [],
+    "subtitle": "MATEMÁTICA / PROJETO PRÁTICO E TRABALHO EM GRUPO"
+  },
+  {
     "id": "modelagem-1",
     "title": "Grand Prix SESI/SENAI",
     "category": "Modelagem",

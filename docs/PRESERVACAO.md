@@ -77,7 +77,7 @@ Total após a criação de Teste de Sistemas: 39 registros em 9 matérias. Todas
 - [x] **Innovation Camp – Hackathon Tech SC** (Mundo SENAI, identificado pelo autor) incluído também em Desenvolvimento / 3º trimestre; `/projetos/desenvolvimento-2/`.
 - [x] Textos e os dois links preservados da atividade existente em Teste de Sistemas; o registro `/projetos/teste-sistemas-1/` foi mantido.
 
-Total atual: 40 registros em 9 matérias. Todas as atividades anteriores foram preservadas.
+Total após as adições de 11/11/2026: 40 registros em 9 matérias. Todas as atividades anteriores foram preservadas.
 
 ### Capa do Innovation Camp — 11/11/2026
 
@@ -107,3 +107,10 @@ Em Eletroquímica, apenas a capa enviada pelo autor é exibida nos detalhes; a s
 ### Foto do Sobre Mim — 12/11/2026
 
 - [x] Foto do Sobre substituída pela imagem enviada pelo autor em 12/11/2026, otimizada em `public/assets/img/foto-sobre.webp`, com lazy loading e alt atualizado. A foto do Início e as atividades foram mantidas.
+
+### Matemática — atividade adicionada em 13/11/2026
+
+- [x] **Desafio 360° – Matemática que Transforma** — Matemática / 3º trimestre; `/projetos/matematica-4/`; textos e habilidades incluídos conforme enviados.
+- [x] Sem fotos ou links fictícios: imagens serão adicionadas quando o autor enviar os registros da atividade.
+
+Total atual: 41 registros em 9 matérias. Todas as atividades anteriores foram preservadas.
